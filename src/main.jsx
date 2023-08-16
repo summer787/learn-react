@@ -3,7 +3,7 @@ import { StrictMode } from 'react';
 // import { createRoot } from '../node_modules/react-dom/client';
 import { createRoot } from 'react-dom/client';
 import App from './App';
-import './styles/global.css';
+import './styles/tailwind.css';
 //확장자 생략할 수 없고 불러와야 한다 
 
 createRoot(document.getElementById('root')).render(
